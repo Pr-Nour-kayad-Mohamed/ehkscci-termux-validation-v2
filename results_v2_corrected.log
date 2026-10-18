@@ -1,0 +1,27 @@
+=== Microbenchmark synthétique - CORRIGÉ selon Perplexity ===
+run 01: graph+edges=3.36ms synthetic=57.75ms score=0.19ms theta=0.16ms E2E=61.47ms
+run 02: graph+edges=15.90ms synthetic=0.12ms score=0.12ms theta=0.10ms E2E=16.24ms
+run 03: graph+edges=1.15ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.29ms
+run 04: graph+edges=1.76ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.91ms
+run 05: graph+edges=1.43ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.58ms
+run 06: graph+edges=1.71ms synthetic=0.04ms score=0.07ms theta=0.06ms E2E=1.89ms
+run 07: graph+edges=1.75ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.89ms
+run 08: graph+edges=1.41ms synthetic=0.03ms score=0.04ms theta=0.06ms E2E=1.55ms
+run 09: graph+edges=1.15ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.29ms
+run 10: graph+edges=1.14ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.27ms
+run 11: graph+edges=1.14ms synthetic=0.03ms score=0.04ms theta=0.06ms E2E=1.27ms
+run 12: graph+edges=3.53ms synthetic=0.04ms score=0.05ms theta=0.06ms E2E=3.68ms
+run 13: graph+edges=1.15ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.29ms
+run 14: graph+edges=1.41ms synthetic=0.03ms score=0.04ms theta=0.06ms E2E=1.54ms
+run 15: graph+edges=1.15ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.29ms
+run 16: graph+edges=1.47ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.61ms
+run 17: graph+edges=1.10ms synthetic=0.03ms score=0.04ms theta=0.06ms E2E=1.23ms
+run 18: graph+edges=1.15ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.28ms
+run 19: graph+edges=1.43ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=1.57ms
+run 20: graph+edges=2.01ms synthetic=0.04ms score=0.04ms theta=0.06ms E2E=2.15ms
+
+Median=1.57ms Max=61.47ms Min=1.23ms
+Deadline misses >50ms: 1/20
+
+ATTENTION: Ce test ne mesure ni courbure Ollivier-Ricci ni estimation spectrale.
+Formulation: Une dérivée analytique locale de la branche d'écrêtage est retournée à titre diagnostique. Aucune rétropropagation automatique de bout en bout n'est évaluée par ce prototype.

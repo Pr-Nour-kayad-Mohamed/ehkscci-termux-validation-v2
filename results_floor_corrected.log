@@ -1,0 +1,8 @@
+=== Test plancher corrigé (Perplexity section 3) ===
+floor_inactive: I=27.5, raw=1.1399918530430558e-12, theta=1.1399918530430558e-12, active=False, dtheta_draw=1.0, dtheta_dS=1.1399918530417563e-12
+floor_active: I=40, raw=4.2483542552915889e-18, theta=1.0000000000000001e-15, active=True, dtheta_draw=0.0, dtheta_dS=0
+opposite_sign: I=-40, raw=1, theta=1, active=False, dtheta_draw=1.0, dtheta_dS=0
+target_raw_3.68e-13: I=28.630693456741387, raw=3.679999999999998e-13, theta=3.679999999999998e-13, active=False, dtheta_draw=1.0, dtheta_dS=3.6799999999986434e-13
+
+Assertions OK
+Note: grad=1.0 = dtheta/draw, pas dtheta/dS. dtheta/dS = raw*(1-raw) très petit quand floor inactif.
