@@ -1,3 +1,4 @@
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23445576.svg)](https://doi.org/10.5281/zenodo.23445576)
 # ehkscci-termux-validation-v2
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23444769.svg)](https://doi.org/10.5281/zenodo.23444769)
