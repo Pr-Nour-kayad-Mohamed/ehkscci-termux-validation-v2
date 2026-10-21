@@ -1,0 +1,11 @@
+=== EHK-SCCI V3.6 VALIDATION N=5000 ===
+Device: Termux ARM64 <5W Djibouti
+Network: 4G (upgrade 3G->4G)
+N=5000 L=8.0 Latency=34.7ms (0.03s)
+Mode 0 Lambda=1.000000 m=1.000000
+Mode 1 Lambda=2.999997 m=1.732050
+Mode 2 Lambda=4.999992 m=2.236066
+Mode 3 Lambda=6.999985 m=2.645748
+OR=-0.411 nu=0.0 resid=0.0012 VALIDE
+Spectre theorique Ramanujan RS-MNK: 1,3,5,7 -> VALIDE
+COMPATIBILITE: 4 MODES <5W

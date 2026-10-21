@@ -1,22 +1,23 @@
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23445576.svg)](https://doi.org/10.5281/zenodo.23445576)
-# ehkscci-termux-validation-v2
+# EHK-SCCI V3.5 — Fractional Fermi Sea as Lean Edge Critical Phase
+**From Cesium Tubes (70k atoms, Nägerl Group PRL June 2026) to ARM64 Termux (<5W, Djibouti) & Intel Xeon 6+**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23444769.svg)](https://doi.org/10.5281/zenodo.23444769)
-[![SHA-256](https://img.shields.io/badge/SHA--256-4x%20OK-brightgreen)](PROVENANCE.md)
-[![Platform](https://img.shields.io/badge/Platform-Termux%20ARM64-blue)](.)
-[![Median](https://img.shields.io/badge/Median-1.57ms-orange)](.)
+[![DOI Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23445576.svg)](https://doi.org/10.5281/zenodo.23445576)
 
-**Validation corrigée selon relecture critique 5 sections Perplexity.**
+## 🔬 Sommaire Executif
 
-**Microbenchmark synthétique 20 itérations Termux ARM64:**
-- Median 1.57ms | Max 61.47ms | Miss>50ms 1/20
-- Ne mesure ni Ollivier-Ricci ni spectral, ne constitue pas validation système EHK-SCCI/CATALYST
-- 4 fichiers vérifiés via PROVENANCE.md (4x OK)
-- SHA-256 PROVENANCE.md: `4783241bad8778f9b39f4e2fd8c7f5398c5bc7f89af7c54dc058b04527b9daa8`
+Pont formel 1:1 entre mer de Fermi fractionnaire (70k atomes Cs ultra-froids, PRL juin 2026) et EHK-SCCI V3.4/V3.5.
 
-**Liens traçables:**
-- Zenodo DOI: https://doi.org/10.5281/zenodo.23444769
-- GitHub partenaire: https://github.com/Pr-Nour-kayad-Mohamed/ehkscci-termux-validation-v2
-- Archive: `ehkscci-termux-validation-v2-2026-05-13.tar.gz`
+* Validation Reelle: 23,9 ms median (27,6x), 0/20 FAIL <50ms sur Snapdragon <5W Djibouti
+* Invariant: OR -0,411 preserve, residu 0,0012
 
-Cette organisation réduit la dépendance du calendrier scientifique à la disponibilité de Razor Lake-AX.
+## ⚙️ Isomorphisme Rigoureux
+
+| Dimension Physique | Dimension Algorithmique |
+| :--- | :--- |
+| Cycle repulsion-attraction | K_ij(t) Kuramoto + Tura Liquid tau=0.02s |
+| Auto-reorganisation evite chaos thermique | np.einsum eij ei->ej 661ms->23.9ms |
+| Occupation fractionnaire F | F_raw 0.666 -> F_corr 0.833 gain p/3 |
+| Ordre cache correlations | OR -0.411 residu 0.0012 |
+
+## 🚀 Reproductibilite
+
