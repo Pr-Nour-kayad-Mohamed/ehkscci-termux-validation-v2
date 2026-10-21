@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23524997.svg)](https://doi.org/10.5281/zenodo.23524997)
-# EHK-SCCI V3.5 — Fractional Fermi Sea as Lean Edge Critical Phase
+# EHK-SCCI V3.6 N5000— Fractional Fermi Sea as Lean Edge Critical Phase
 **From Cesium Tubes (70k atoms, Nägerl Group PRL June 2026) to ARM64 Termux (<5W, Djibouti) & Intel Xeon 6+**
 
 [![DOI Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23445576.svg)](https://doi.org/10.5281/zenodo.23445576)
